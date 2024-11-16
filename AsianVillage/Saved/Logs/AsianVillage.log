@@ -4740,3 +4740,672 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.11.16-04.47.44:834][514]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.11.16-04.47.44:834][514]LogContentValidation: Display: Validating asset /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student
 [2024.11.16-04.47.44:835][514]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Student Validating asset
+[2024.11.16-05.02.54:226][241]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.16-05.02.54:287][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.16-05.02.54:292][241]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.02.55:072][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.779861s)
+[2024.11.16-05.02.55:072][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.781016s)
+[2024.11.16-05.02.55:184][241]LogUObjectHash: Compacting FUObjectHashTables data took   8.33ms
+[2024.11.16-05.02.55:191][241]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.02.55:198][241]LogPlayLevel: PIE: World Init took: (0.007259s)
+[2024.11.16-05.02.55:228][241]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.16-05.02.55:229][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.16-05.02.55:229][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.16-05.02.55:229][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.16-05.02.55:229][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.16-05.02.55:230][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.16-05.02.55:233][241]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.16-05.02.55:283][241]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.16-05.02.55:284][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.16-05.02.55:284][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.16-05.02.55:284][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.16-05.02.55:288][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.11.16-05.02.55:288][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.11.16-05.02.55:291][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.11.16-05.02.55:291][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.11.16-05.02.55:292][241]LogInit: FAudioDevice initialized with ID 43.
+[2024.11.16-05.02.55:292][241]LogAudio: Display: Audio Device (ID: 43) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.02.55:293][241]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.16-05.02.55:311][241]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.02.55:586][241]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 60) at 2024.11.15-22.02.55
+[2024.11.16-05.02.55:590][241]LogWorld: Bringing up level for play took: 0.277100
+[2024.11.16-05.02.55:598][241]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.11.16-05.02.55:649][241]PIE: Server logged in
+[2024.11.16-05.02.55:650][241]PIE: Play in editor total start time 1.376 seconds.
+[2024.11.16-05.03.02:666][356]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.03.02:666][356]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.03.02:667][356]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.03.02:667][356]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.03.02:681][356]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.03.02:797][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.03.02:814][356]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.03.02:814][356]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.03.02:922][356]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.03.03:065][356]LogUObjectHash: Compacting FUObjectHashTables data took   6.40ms
+[2024.11.16-05.03.03:127][356]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.03.03:843][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.714547s)
+[2024.11.16-05.03.03:843][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.714998s)
+[2024.11.16-05.03.03:843][356]LogAudio: Display: Audio Device (ID: 43) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.03.03:843][356]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.03.03:846][356]LogPlayLevel: PIE: World Init took: (0.003946s)
+[2024.11.16-05.03.03:847][356]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.03.04:163][356]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 60) at 2024.11.15-22.03.04
+[2024.11.16-05.03.04:165][356]LogWorld: Bringing up level for play took: 0.317694
+[2024.11.16-05.03.04:182][356]LogLoad: Took 1.514761 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.03.04:182][356]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.03.05:602][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.03.05:602][375]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.03.05:610][375]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.03.05:733][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.03.05:739][375]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.03.05:739][375]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.03.05:754][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.16-05.03.05:801][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.03.05:855][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.03.05:900][375]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.16-05.03.05:901][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.16-05.03.05:916][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.16-05.03.06:041][375]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2024.11.16-05.03.06:396][376]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2024.11.16-05.03.23:128][743]LogContentBrowser: Deferred new asset file creation: RotatingBarrier1
+[2024.11.16-05.03.23:163][743]LogContentBrowser: Creating deferred item: RotatingBarrier1
+[2024.11.16-05.03.23:261][744]LogContentBrowser: Renaming the item being created (Deferred Item: RotatingBarrier1).
+[2024.11.16-05.03.32:660][986]LogContentBrowser: Attempting asset rename: RotatingBarrier1 -> RotatingColumn
+[2024.11.16-05.03.32:735][986]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2024.11.16-05.03.32:778][986]LogContentBrowser: End creating deferred item RotatingBarrier1
+[2024.11.16-05.03.50:490][320]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RotatingColumn.RotatingColumn
+[2024.11.16-05.06.46:564][153]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/RotatingColumn.RotatingColumn'
+[2024.11.16-05.08.00:611][ 67]LogEditorTransaction: Undo Modify Component(s)
+[2024.11.16-05.08.21:405][311]LogEditorTransaction: Undo Modify Component(s)
+[2024.11.16-05.09.13:067][883]LogUObjectHash: Compacting FUObjectHashTables data took  13.52ms
+[2024.11.16-05.09.15:163][887]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.09.15:786][887]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/RotatingColumn] ([2] browsable assets)...
+[2024.11.16-05.09.15:973][887]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RotatingColumn.RotatingColumn]
+[2024.11.16-05.09.15:974][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RotatingColumn]
+[2024.11.16-05.09.16:052][887]LogSavePackage: Moving output files for package: /Game/Blueprints/RotatingColumn
+[2024.11.16-05.09.16:056][887]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/RotatingColumnA24B97F14FF49DE20A7B2390AC48858B.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Blueprints/RotatingColumn.uasset'
+[2024.11.16-05.09.16:140][887]LogFileHelpers: InternalPromptForCheckoutAndSave took 976.925 ms (total: 33.4 sec)
+[2024.11.16-05.09.16:607][887]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.09.16:607][887]LogContentValidation: Enabled validators:
+[2024.11.16-05.09.16:608][887]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.09.16:608][887]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.09.16:608][887]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.09.16:608][887]LogContentValidation: Display: Validating asset /Game/Blueprints/RotatingColumn.RotatingColumn
+[2024.11.16-05.09.16:610][887]AssetCheck: /Game/Blueprints/RotatingColumn Validating asset
+[2024.11.16-05.10.05:310][395]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/RotatingColumn.RotatingColumn_C
+[2024.11.16-05.10.05:310][395]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/RotatingColumn.RotatingColumn_C
+[2024.11.16-05.10.05:408][395]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/RotatingColumn.RotatingColumn as actor: RotatingColumn_C /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student:PersistentLevel.RotatingColumn_C_0
+[2024.11.16-05.10.05:536][395]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/RotatingColumn.RotatingColumn as actor: RotatingColumn_C /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student:PersistentLevel.RotatingColumn_C_0
+[2024.11.16-05.10.07:220][401]LogUObjectHash: Compacting FUObjectHashTables data took  14.00ms
+[2024.11.16-05.10.07:590][401]LogEditorActor: Deleted 0 Actors (0.562 secs)
+[2024.11.16-05.10.07:654][401]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/RotatingColumn.RotatingColumn_C
+[2024.11.16-05.10.07:655][401]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/RotatingColumn.RotatingColumn_C
+[2024.11.16-05.10.07:822][401]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/RotatingColumn.RotatingColumn as actor: RotatingColumn_C /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student:PersistentLevel.RotatingColumn_C_1
+[2024.11.16-05.10.07:949][401]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/RotatingColumn.RotatingColumn as actor: RotatingColumn_C /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student:PersistentLevel.RotatingColumn_C_1
+[2024.11.16-05.10.16:987][482]Cmd: DUPLICATE
+[2024.11.16-05.10.16:987][482]Cmd: ACTOR DUPLICATE
+[2024.11.16-05.10.26:530][564]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.11.16-05.10.30:819][613]Cmd: DUPLICATE
+[2024.11.16-05.10.30:820][613]Cmd: ACTOR DUPLICATE
+[2024.11.16-05.10.41:020][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.16-05.10.41:021][684]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.10.42:570][684]LogPlayLevel: PIE: StaticDuplicateObject took: (1.549922s)
+[2024.11.16-05.10.42:572][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (1.550119s)
+[2024.11.16-05.10.42:692][684]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2024.11.16-05.10.42:698][684]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.10.42:704][684]LogPlayLevel: PIE: World Init took: (0.006141s)
+[2024.11.16-05.10.42:774][684]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.11.16-05.10.42:774][684]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.16-05.10.42:774][684]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.16-05.10.42:774][684]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.16-05.10.42:774][684]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.16-05.10.42:774][684]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.16-05.10.42:774][684]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.16-05.10.42:775][684]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.16-05.10.42:775][684]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.16-05.10.42:775][684]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.16-05.10.42:775][684]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.16-05.10.42:775][684]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.16-05.10.42:780][684]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.16-05.10.42:903][684]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.16-05.10.42:905][684]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.16-05.10.42:906][684]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.16-05.10.42:906][684]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.16-05.10.42:916][684]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.11.16-05.10.42:916][684]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.11.16-05.10.42:922][684]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.11.16-05.10.42:922][684]LogInit: FAudioDevice initialized with ID 44.
+[2024.11.16-05.10.42:922][684]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.11.16-05.10.42:922][684]LogAudio: Display: Audio Device (ID: 44) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.10.42:922][684]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.16-05.10.42:936][684]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.10.43:668][684]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 60) at 2024.11.15-22.10.43
+[2024.11.16-05.10.43:676][684]LogWorld: Bringing up level for play took: 0.738269
+[2024.11.16-05.10.43:686][684]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2024.11.16-05.10.43:767][684]PIE: Server logged in
+[2024.11.16-05.10.43:770][684]PIE: Play in editor total start time 2.758 seconds.
+[2024.11.16-05.10.51:052][728]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.10.51:053][728]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.10.51:054][728]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.10.51:054][728]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.10.51:136][728]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.10.51:431][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.10.51:443][728]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.10.51:443][728]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.10.51:694][728]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.10.51:956][728]LogUObjectHash: Compacting FUObjectHashTables data took  13.39ms
+[2024.11.16-05.10.52:112][728]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.10.54:779][728]LogPlayLevel: PIE: StaticDuplicateObject took: (2.666488s)
+[2024.11.16-05.10.54:779][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (2.666841s)
+[2024.11.16-05.10.54:779][728]LogAudio: Display: Audio Device (ID: 44) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.10.54:780][728]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.10.54:790][728]LogPlayLevel: PIE: World Init took: (0.011689s)
+[2024.11.16-05.10.54:794][728]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.10.56:097][728]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 60) at 2024.11.15-22.10.56
+[2024.11.16-05.10.56:112][728]LogWorld: Bringing up level for play took: 1.315725
+[2024.11.16-05.10.56:195][728]LogLoad: Took 5.139744 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.10.56:195][728]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.10.57:636][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.10.57:636][729]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.10.57:647][729]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.10.57:827][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.10.57:838][729]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.10.57:839][729]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.10.58:163][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.16-05.10.58:221][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.10.58:394][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.10.58:396][729]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.16-05.10.58:396][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.16-05.10.58:403][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.16-05.10.58:586][729]LogUObjectHash: Compacting FUObjectHashTables data took  10.74ms
+[2024.11.16-05.10.59:593][730]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2024.11.16-05.11.01:579][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.11.02:637][738]LogUObjectHash: Compacting FUObjectHashTables data took  20.18ms
+[2024.11.16-05.11.12:306][738]LogSavePackage: Moving output files for package: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.11.12:311][738]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/Asian_Village_StudentFA81DF8A477E329EEF25EABD137B747C.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Asian_Village/maps/Asian_Village_Student.umap'
+[2024.11.16-05.11.12:454][738]LogFileHelpers: Saving map 'Asian_Village_Student' took 10.253
+[2024.11.16-05.11.12:846][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.2 sec (total: 44.6 sec)
+[2024.11.16-05.11.13:286][738]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.11.13:286][738]LogContentValidation: Enabled validators:
+[2024.11.16-05.11.13:286][738]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.11.13:286][738]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.11.13:287][738]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.11.13:287][738]LogContentValidation: Display: Validating asset /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student
+[2024.11.16-05.11.13:293][738]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Student Validating asset
+[2024.11.16-05.11.30:754][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.11.31:112][884]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2024.11.16-05.11.34:596][884]LogSavePackage: Moving output files for package: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.11.34:597][884]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/Asian_Village_Student7E05ABC94173B7C7CEFD62ADA48D51BE.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Asian_Village/maps/Asian_Village_Student.umap'
+[2024.11.16-05.11.34:660][884]LogFileHelpers: Saving map 'Asian_Village_Student' took 3.719
+[2024.11.16-05.11.35:164][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.40 sec (total: 49.0 sec)
+[2024.11.16-05.11.35:567][884]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.11.35:567][884]LogContentValidation: Enabled validators:
+[2024.11.16-05.11.35:567][884]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.11.35:567][884]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.11.35:568][884]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.11.35:568][884]LogContentValidation: Display: Validating asset /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student
+[2024.11.16-05.11.35:574][884]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Student Validating asset
+[2024.11.16-05.11.41:612][930]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/RotatingBarrier.RotatingBarrier
+[2024.11.16-05.12.01:487][132]LogUObjectHash: Compacting FUObjectHashTables data took  16.88ms
+[2024.11.16-05.12.03:558][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.12.04:047][137]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/RotatingBarrier] ([2] browsable assets)...
+[2024.11.16-05.12.04:112][137]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RotatingBarrier.RotatingBarrier]
+[2024.11.16-05.12.04:112][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RotatingBarrier]
+[2024.11.16-05.12.04:166][137]LogSavePackage: Moving output files for package: /Game/Blueprints/RotatingBarrier
+[2024.11.16-05.12.04:175][137]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/RotatingBarrier725C608747750ED4D4F919BD3D78A2CD.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Blueprints/RotatingBarrier.uasset'
+[2024.11.16-05.12.04:265][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 706.316 ms (total: 49.8 sec)
+[2024.11.16-05.12.04:861][137]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.12.04:861][137]LogContentValidation: Enabled validators:
+[2024.11.16-05.12.04:861][137]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.12.04:861][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.12.04:862][137]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.12.04:862][137]LogContentValidation: Display: Validating asset /Game/Blueprints/RotatingBarrier.RotatingBarrier
+[2024.11.16-05.12.04:862][137]AssetCheck: /Game/Blueprints/RotatingBarrier Validating asset
+[2024.11.16-05.12.12:863][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.16-05.12.12:866][169]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.17:377][169]LogPlayLevel: PIE: StaticDuplicateObject took: (4.510207s)
+[2024.11.16-05.12.17:377][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (4.510517s)
+[2024.11.16-05.12.17:581][169]LogUObjectHash: Compacting FUObjectHashTables data took  18.49ms
+[2024.11.16-05.12.17:597][169]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.12.17:612][169]LogPlayLevel: PIE: World Init took: (0.016654s)
+[2024.11.16-05.12.17:702][169]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.11.16-05.12.17:702][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.16-05.12.17:703][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.16-05.12.17:703][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.16-05.12.17:703][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.16-05.12.17:703][169]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.16-05.12.17:703][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.16-05.12.17:703][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.16-05.12.17:704][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.16-05.12.17:704][169]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.16-05.12.17:704][169]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.16-05.12.17:704][169]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.16-05.12.17:723][169]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.16-05.12.18:076][169]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.16-05.12.18:080][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.16-05.12.18:080][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.16-05.12.18:080][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.16-05.12.18:094][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.11.16-05.12.18:094][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.11.16-05.12.18:106][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.11.16-05.12.18:106][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.11.16-05.12.18:106][169]LogInit: FAudioDevice initialized with ID 45.
+[2024.11.16-05.12.18:106][169]LogAudio: Display: Audio Device (ID: 45) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.12.18:106][169]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2024.11.16-05.12.18:163][169]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.12.20:462][169]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 60) at 2024.11.15-22.12.20
+[2024.11.16-05.12.20:478][169]LogWorld: Bringing up level for play took: 2.313223
+[2024.11.16-05.12.20:494][169]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2024.11.16-05.12.20:669][169]PIE: Server logged in
+[2024.11.16-05.12.20:675][169]PIE: Play in editor total start time 7.828 seconds.
+[2024.11.16-05.12.28:599][277]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.12.28:599][277]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.12.28:600][277]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.12.28:600][277]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.28:631][277]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.12.28:722][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.12.28:729][277]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.12.28:729][277]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.12.28:801][277]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.12.28:886][277]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2024.11.16-05.12.28:924][277]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.29:560][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.635231s)
+[2024.11.16-05.12.29:560][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.635415s)
+[2024.11.16-05.12.29:560][277]LogAudio: Display: Audio Device (ID: 45) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.12.29:560][277]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.12.29:563][277]LogPlayLevel: PIE: World Init took: (0.003271s)
+[2024.11.16-05.12.29:563][277]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.12.29:808][277]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 60) at 2024.11.15-22.12.29
+[2024.11.16-05.12.29:813][277]LogWorld: Bringing up level for play took: 0.248645
+[2024.11.16-05.12.29:834][277]LogLoad: Took 1.234243 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.12.29:834][277]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.35:030][384]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.12.35:030][384]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.12.35:030][384]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.12.35:030][384]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.35:042][384]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.12.35:091][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.12.35:093][384]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.12.35:093][384]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.12.35:155][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.12.35:201][384]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2024.11.16-05.12.35:233][384]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.35:647][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.413904s)
+[2024.11.16-05.12.35:647][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.414011s)
+[2024.11.16-05.12.35:647][384]LogAudio: Display: Audio Device (ID: 45) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.12.35:647][384]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.12.35:650][384]LogPlayLevel: PIE: World Init took: (0.002722s)
+[2024.11.16-05.12.35:650][384]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.12.35:808][384]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.12.35
+[2024.11.16-05.12.35:811][384]LogWorld: Bringing up level for play took: 0.160058
+[2024.11.16-05.12.35:824][384]LogLoad: Took 0.793080 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.12.35:824][384]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.36:989][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.12.36:989][402]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.36:992][402]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.12.37:035][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.12.37:038][402]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.12.37:039][402]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.12.37:046][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.16-05.12.37:060][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.12.37:109][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.12.37:109][402]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2024.11.16-05.12.37:109][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.11.16-05.12.37:112][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.11.16-05.12.37:170][402]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2024.11.16-05.12.37:582][403]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2024.11.16-05.12.49:806][734]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2024.11.16-05.12.50:680][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.12.50:875][754]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/RotatingBarrier] ([2] browsable assets)...
+[2024.11.16-05.12.50:893][754]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RotatingBarrier.RotatingBarrier]
+[2024.11.16-05.12.50:893][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RotatingBarrier]
+[2024.11.16-05.12.50:899][754]LogSavePackage: Moving output files for package: /Game/Blueprints/RotatingBarrier
+[2024.11.16-05.12.50:900][754]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/RotatingBarrier933E4E5042CCC7D081F849AEF5C94D4D.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Blueprints/RotatingBarrier.uasset'
+[2024.11.16-05.12.50:924][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 244.233 ms (total: 50.0 sec)
+[2024.11.16-05.12.51:080][754]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.12.51:080][754]LogContentValidation: Enabled validators:
+[2024.11.16-05.12.51:080][754]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.12.51:080][754]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.12.51:080][754]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.12.51:080][754]LogContentValidation: Display: Validating asset /Game/Blueprints/RotatingBarrier.RotatingBarrier
+[2024.11.16-05.12.51:080][754]AssetCheck: /Game/Blueprints/RotatingBarrier Validating asset
+[2024.11.16-05.12.55:186][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.16-05.12.55:188][820]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.12.55:755][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.565714s)
+[2024.11.16-05.12.55:755][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.565950s)
+[2024.11.16-05.12.55:794][820]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2024.11.16-05.12.55:798][820]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.12.55:800][820]LogPlayLevel: PIE: World Init took: (0.002827s)
+[2024.11.16-05.12.55:864][820]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.16-05.12.55:864][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.16-05.12.55:865][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.16-05.12.55:865][820]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.16-05.12.55:865][820]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.16-05.12.55:865][820]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.16-05.12.55:867][820]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.16-05.12.55:906][820]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.16-05.12.55:906][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.16-05.12.55:906][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.16-05.12.55:906][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.16-05.12.55:907][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2024.11.16-05.12.55:907][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2024.11.16-05.12.55:910][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2024.11.16-05.12.55:910][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2024.11.16-05.12.55:910][820]LogInit: FAudioDevice initialized with ID 46.
+[2024.11.16-05.12.55:910][820]LogAudio: Display: Audio Device (ID: 46) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.12.55:910][820]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2024.11.16-05.12.55:916][820]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.12.56:154][820]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.12.56
+[2024.11.16-05.12.56:157][820]LogWorld: Bringing up level for play took: 0.240775
+[2024.11.16-05.12.56:162][820]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2024.11.16-05.12.56:246][820]PIE: Server logged in
+[2024.11.16-05.12.56:248][820]PIE: Play in editor total start time 1.069 seconds.
+[2024.11.16-05.13.00:979][908]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.13.00:979][908]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.00:979][908]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.00:979][908]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.01:002][908]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.13.01:058][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.01:061][908]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.13.01:061][908]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.13.01:134][908]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.13.01:198][908]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2024.11.16-05.13.01:232][908]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.01:754][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.520827s)
+[2024.11.16-05.13.01:754][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.520944s)
+[2024.11.16-05.13.01:754][908]LogAudio: Display: Audio Device (ID: 46) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.13.01:754][908]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.13.01:756][908]LogPlayLevel: PIE: World Init took: (0.002634s)
+[2024.11.16-05.13.01:756][908]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.13.01:952][908]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.13.01
+[2024.11.16-05.13.01:955][908]LogWorld: Bringing up level for play took: 0.198059
+[2024.11.16-05.13.01:970][908]LogLoad: Took 0.990892 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.13.01:970][908]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.06:704][995]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.13.06:704][995]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.06:704][995]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.06:704][995]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.06:715][995]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.13.06:788][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.06:793][995]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.13.06:793][995]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.13.06:858][995]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.13.06:923][995]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2024.11.16-05.13.06:965][995]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.07:613][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.648604s)
+[2024.11.16-05.13.07:613][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.648778s)
+[2024.11.16-05.13.07:613][995]LogAudio: Display: Audio Device (ID: 46) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.13.07:613][995]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.13.07:616][995]LogPlayLevel: PIE: World Init took: (0.003069s)
+[2024.11.16-05.13.07:617][995]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.13.07:836][995]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.13.07
+[2024.11.16-05.13.07:839][995]LogWorld: Bringing up level for play took: 0.221161
+[2024.11.16-05.13.07:855][995]LogLoad: Took 1.150065 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.13.07:855][995]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.14:489][115]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.13.14:489][115]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.14:489][115]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.14:489][115]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.14:510][115]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.13.14:592][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.14:599][115]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.13.14:599][115]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.13.14:709][115]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.13.14:823][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2024.11.16-05.13.14:861][115]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.15:674][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.811778s)
+[2024.11.16-05.13.15:674][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (0.811961s)
+[2024.11.16-05.13.15:674][115]LogAudio: Display: Audio Device (ID: 46) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.13.15:675][115]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.13.15:678][115]LogPlayLevel: PIE: World Init took: (0.004167s)
+[2024.11.16-05.13.15:679][115]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.13.15:956][115]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.13.15
+[2024.11.16-05.13.15:961][115]LogWorld: Bringing up level for play took: 0.281447
+[2024.11.16-05.13.15:983][115]LogLoad: Took 1.493545 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.13.15:983][115]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.21:627][197]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.13.21:628][197]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.21:628][197]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.21:628][197]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.21:663][197]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.13.21:750][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.21:760][197]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.13.21:760][197]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.13.21:888][197]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.13.22:014][197]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2024.11.16-05.13.22:064][197]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.23:095][197]LogPlayLevel: PIE: StaticDuplicateObject took: (1.030678s)
+[2024.11.16-05.13.23:095][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (1.030901s)
+[2024.11.16-05.13.23:096][197]LogAudio: Display: Audio Device (ID: 46) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.13.23:096][197]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.13.23:100][197]LogPlayLevel: PIE: World Init took: (0.005082s)
+[2024.11.16-05.13.23:101][197]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.13.23:475][197]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.13.23
+[2024.11.16-05.13.23:480][197]LogWorld: Bringing up level for play took: 0.378241
+[2024.11.16-05.13.23:503][197]LogLoad: Took 1.874665 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.13.23:503][197]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.39:590][293]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.13.39:590][293]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.39:591][293]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.13.39:591][293]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.39:663][293]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.13.39:888][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.39:906][293]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.13.39:907][293]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.13.40:245][293]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.13.40:603][293]LogUObjectHash: Compacting FUObjectHashTables data took  16.81ms
+[2024.11.16-05.13.40:763][293]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.44:357][293]LogPlayLevel: PIE: StaticDuplicateObject took: (3.592317s)
+[2024.11.16-05.13.44:358][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (3.592634s)
+[2024.11.16-05.13.44:358][293]LogAudio: Display: Audio Device (ID: 46) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.13.44:358][293]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.13.44:369][293]LogPlayLevel: PIE: World Init took: (0.011824s)
+[2024.11.16-05.13.44:373][293]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.13.45:893][293]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.13.45
+[2024.11.16-05.13.45:909][293]LogWorld: Bringing up level for play took: 1.533048
+[2024.11.16-05.13.45:989][293]LogLoad: Took 6.397626 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.13.45:989][293]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.47:309][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.13.47:310][294]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.13.47:322][294]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.13.47:472][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.47:490][294]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.13.47:491][294]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.13.47:737][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.16-05.13.47:824][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.13.48:109][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.13.48:110][294]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2024.11.16-05.13.48:110][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.11.16-05.13.48:132][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.11.16-05.13.48:448][294]LogUObjectHash: Compacting FUObjectHashTables data took  14.87ms
+[2024.11.16-05.13.50:114][295]Cmd: SELECT NONE
+[2024.11.16-05.13.50:199][295]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2024.11.16-05.14.03:535][395]LogUObjectHash: Compacting FUObjectHashTables data took  10.29ms
+[2024.11.16-05.14.05:106][403]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.14.05:526][403]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/RotatingBarrier] ([2] browsable assets)...
+[2024.11.16-05.14.05:576][403]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RotatingBarrier.RotatingBarrier]
+[2024.11.16-05.14.05:576][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RotatingBarrier]
+[2024.11.16-05.14.05:609][403]LogSavePackage: Moving output files for package: /Game/Blueprints/RotatingBarrier
+[2024.11.16-05.14.05:615][403]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/RotatingBarrier53B1A2CE444FBD5AC4A3869E7D9BA319.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Blueprints/RotatingBarrier.uasset'
+[2024.11.16-05.14.05:684][403]LogFileHelpers: InternalPromptForCheckoutAndSave took 578.348 ms (total: 50.6 sec)
+[2024.11.16-05.14.06:145][403]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.14.06:145][403]LogContentValidation: Enabled validators:
+[2024.11.16-05.14.06:145][403]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.14.06:146][403]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.14.06:146][403]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.14.06:146][403]LogContentValidation: Display: Validating asset /Game/Blueprints/RotatingBarrier.RotatingBarrier
+[2024.11.16-05.14.06:147][403]AssetCheck: /Game/Blueprints/RotatingBarrier Validating asset
+[2024.11.16-05.14.19:338][478]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.16-05.14.19:465][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.16-05.14.19:472][478]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.14.23:226][478]LogPlayLevel: PIE: StaticDuplicateObject took: (3.753059s)
+[2024.11.16-05.14.23:226][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (3.753366s)
+[2024.11.16-05.14.23:384][478]LogUObjectHash: Compacting FUObjectHashTables data took  11.28ms
+[2024.11.16-05.14.23:393][478]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.14.23:401][478]LogPlayLevel: PIE: World Init took: (0.008487s)
+[2024.11.16-05.14.23:464][478]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2024.11.16-05.14.23:465][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.16-05.14.23:465][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.16-05.14.23:465][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.16-05.14.23:465][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.16-05.14.23:465][478]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.16-05.14.23:466][478]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.16-05.14.23:466][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.16-05.14.23:466][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.16-05.14.23:466][478]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.16-05.14.23:466][478]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.16-05.14.23:466][478]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.16-05.14.23:472][478]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.16-05.14.23:642][478]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.16-05.14.23:643][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.16-05.14.23:644][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.16-05.14.23:644][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.16-05.14.23:651][478]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2024.11.16-05.14.23:651][478]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2024.11.16-05.14.23:660][478]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2024.11.16-05.14.23:660][478]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2024.11.16-05.14.23:660][478]LogInit: FAudioDevice initialized with ID 47.
+[2024.11.16-05.14.23:660][478]LogAudio: Display: Audio Device (ID: 47) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.14.23:660][478]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2024.11.16-05.14.23:674][478]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.14.25:106][478]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.14.25
+[2024.11.16-05.14.25:120][478]LogWorld: Bringing up level for play took: 1.444604
+[2024.11.16-05.14.25:131][478]LogOnline: OSS: Created online subsystem instance for: :Context_79
+[2024.11.16-05.14.25:246][478]PIE: Server logged in
+[2024.11.16-05.14.25:249][478]PIE: Play in editor total start time 5.81 seconds.
+[2024.11.16-05.14.39:713][550]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Asian_Village/maps/Asian_Village_Student"
+[2024.11.16-05.14.39:713][550]LogNet: Browse: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.14.39:713][550]LogLoad: LoadMap: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.14.39:713][550]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.14.39:776][550]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.14.39:962][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.14.39:981][550]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.14.39:982][550]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.14.40:245][550]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.16-05.14.40:587][550]LogUObjectHash: Compacting FUObjectHashTables data took  16.48ms
+[2024.11.16-05.14.40:757][550]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.14.43:621][550]LogPlayLevel: PIE: StaticDuplicateObject took: (2.863734s)
+[2024.11.16-05.14.43:621][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (2.864044s)
+[2024.11.16-05.14.43:623][550]LogAudio: Display: Audio Device (ID: 47) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.14.43:623][550]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.14.43:635][550]LogPlayLevel: PIE: World Init took: (0.012715s)
+[2024.11.16-05.14.43:638][550]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.14.45:280][550]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.14.45
+[2024.11.16-05.14.45:299][550]LogWorld: Bringing up level for play took: 1.658980
+[2024.11.16-05.14.45:407][550]LogLoad: Took 5.692712 seconds to LoadMap(/Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student)
+[2024.11.16-05.14.45:407][550]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.14.49:277][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.14.49:277][563]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.14.49:297][563]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.14.49:560][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.14.49:575][563]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.14.49:577][563]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.14.49:605][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.16-05.14.49:673][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.14.49:977][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.14.49:978][563]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2024.11.16-05.14.49:979][563]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.11.16-05.14.49:992][563]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.11.16-05.14.50:397][563]LogUObjectHash: Compacting FUObjectHashTables data took  13.27ms
+[2024.11.16-05.14.51:226][564]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2024.11.16-05.14.55:563][586]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.14.55:564][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.14.56:207][586]LogUObjectHash: Compacting FUObjectHashTables data took  14.56ms
+[2024.11.16-05.14.58:722][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.16-05.14.58:722][605]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.14.58:722][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.15.00:112][605]LogUObjectHash: Compacting FUObjectHashTables data took  11.94ms
+[2024.11.16-05.15.00:862][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.16-05.15.00:862][611]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.15.00:862][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.15.02:157][611]LogUObjectHash: Compacting FUObjectHashTables data took  10.92ms
+[2024.11.16-05.15.03:177][618]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.15.03:178][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.15.03:265][618]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.15.03:265][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.15.04:351][618]LogUObjectHash: Compacting FUObjectHashTables data took  12.80ms
+[2024.11.16-05.15.05:312][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.16-05.15.05:312][626]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.15.05:313][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.15.06:077][626]LogUObjectHash: Compacting FUObjectHashTables data took  14.83ms
+[2024.11.16-05.15.06:955][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.16-05.15.06:956][633]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.15.06:956][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.15.07:450][633]LogUObjectHash: Compacting FUObjectHashTables data took  16.06ms
+[2024.11.16-05.15.19:301][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.16-05.15.20:204][719]LogUObjectHash: Compacting FUObjectHashTables data took  11.31ms
+[2024.11.16-05.15.31:124][719]LogSavePackage: Moving output files for package: /Game/Asian_Village/maps/Asian_Village_Student
+[2024.11.16-05.15.31:127][719]LogSavePackage: Moving '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Saved/Asian_Village_StudentB644E5FC4BA53E88C326F29213321F26.tmp' to '../../../../../../Users/ferri/Documents/GitKraken/Fall2024UnrealStuff/AsianVillage/Content/Asian_Village/maps/Asian_Village_Student.umap'
+[2024.11.16-05.15.31:233][719]LogFileHelpers: Saving map 'Asian_Village_Student' took 11.462
+[2024.11.16-05.15.31:392][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 12.0 sec (total: 1:02 min)
+[2024.11.16-05.15.31:737][719]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.16-05.15.31:737][719]LogContentValidation: Enabled validators:
+[2024.11.16-05.15.31:737][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.16-05.15.31:737][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.16-05.15.31:737][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.16-05.15.31:737][719]LogContentValidation: Display: Validating asset /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student
+[2024.11.16-05.15.31:743][719]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Student Validating asset
+[2024.11.16-05.16.07:531][894]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.16-05.16.07:653][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.16-05.16.07:655][894]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.16.13:014][894]LogPlayLevel: PIE: StaticDuplicateObject took: (5.358330s)
+[2024.11.16-05.16.13:015][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Student.Asian_Village_Student to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student (5.358662s)
+[2024.11.16-05.16.13:237][894]LogUObjectHash: Compacting FUObjectHashTables data took  24.26ms
+[2024.11.16-05.16.13:253][894]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.11.16-05.16.13:275][894]LogPlayLevel: PIE: World Init took: (0.023908s)
+[2024.11.16-05.16.13:473][894]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2024.11.16-05.16.13:473][894]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.16-05.16.13:474][894]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.16-05.16.13:475][894]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.16-05.16.13:475][894]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.16-05.16.13:475][894]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.16-05.16.13:475][894]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.16-05.16.13:475][894]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.16-05.16.13:477][894]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.16-05.16.13:477][894]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.16-05.16.13:477][894]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.16-05.16.13:477][894]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.16-05.16.13:493][894]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.16-05.16.14:007][894]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.16-05.16.14:012][894]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.16-05.16.14:013][894]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.16-05.16.14:013][894]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.16-05.16.14:018][894]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2024.11.16-05.16.14:018][894]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2024.11.16-05.16.14:033][894]LogInit: FAudioDevice initialized with ID 48.
+[2024.11.16-05.16.14:034][894]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2024.11.16-05.16.14:035][894]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2024.11.16-05.16.14:035][894]LogAudio: Display: Audio Device (ID: 48) registered with world 'Asian_Village_Student'.
+[2024.11.16-05.16.14:035][894]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2024.11.16-05.16.14:060][894]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.11.16-05.16.16:018][894]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student.Asian_Village_Student up for play (max tick rate 0) at 2024.11.15-22.16.16
+[2024.11.16-05.16.16:035][894]LogWorld: Bringing up level for play took: 1.970527
+[2024.11.16-05.16.16:047][894]LogOnline: OSS: Created online subsystem instance for: :Context_80
+[2024.11.16-05.16.16:235][894]PIE: Server logged in
+[2024.11.16-05.16.16:242][894]PIE: Play in editor total start time 8.597 seconds.
+[2024.11.16-05.16.40:386][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.16.40:386][982]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Student
+[2024.11.16-05.16.40:408][982]LogWorld: UWorld::CleanupWorld for Asian_Village_Student, bSessionEnded=true, bCleanupResources=true
+[2024.11.16-05.16.40:926][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.16.40:995][982]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.11.16-05.16.40:995][982]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.11.16-05.16.41:038][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.16-05.16.41:145][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.16-05.16.41:412][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.16-05.16.41:545][982]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2024.11.16-05.16.41:545][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2024.11.16-05.16.41:559][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2024.11.16-05.16.42:664][982]LogUObjectHash: Compacting FUObjectHashTables data took  18.10ms
+[2024.11.16-05.16.45:894][983]LogPlayLevel: Display: Destroying online subsystem :Context_80
